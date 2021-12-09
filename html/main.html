@@ -1,0 +1,68 @@
+<HTML>
+<script language="javascript1.1">
+var scrollingText	= 		"http://www.The-Mountain-People.de/";
+var size		= 20; var speed		= 100;
+
+        if(document.layers || document.all)
+                var width = size;
+        else
+		//Navigator 3.x does not use styles to define font for its text fields
+                var width = 2.75 * size;
+
+        var pos = 0, endPos = pos + width;
+        var spaces = "";  
+        for(i = 0; i < width; i++) spaces += " ";
+        scrollingText = spaces + scrollingText;
+
+        function marquee()
+        {       if((endPos = pos + width) > scrollingText.length) endPos = scrollingText.length;
+                var text = "";
+                for(i = pos; i < endPos; i++) text += scrollingText.charAt(i);
+                document.form1.scrollField.value = text;
+                if((++pos) > scrollingText.length) pos = 0;
+                setTimeout("marquee()", speed);
+	}
+</script>
+<head></head>
+<body text="#FFFFFF" bgcolor="#000000" link="#0000EF" vlink="#33CC00" alink="#FF0000" onLoad="marquee();">
+<CENTER>
+<img src="../gfx/logo-big.gif" border=0><p>
+<BR>
+<BR>
+<script language="JavaScript" type="text/javascript">
+	document.write("Last Updated: " + document.lastModified);
+</script>
+<BR>
+<br>
+<form name=form1>
+	<tt><input type="Text" name="scrollField" size="20" style="background-color: Black; color: Lime; border-style: none;"></tt>
+</form>
+<br>
+NEWS:
+</center>
+<br><br>
+For a long time we had the problem that many of the MP members were inactive. 
+Juggernaut and North were the first to approach in Battle.net, followed by 
+Azrael and MOP. Slowly almost half of the members are active, listed
+below:<center> 
+<br> [MP]Azrael<br> 
+[MP]Gorlord<br> 
+[MP]MOP<br> 
+[MP]North<br> 
+[MP]Juggernaut<br> 
+</center>
+<br> Soon we will welcome a new Member, if he has proven to be a true MP:
+<br> Luminus, an old friend of us will join MP soon. Me (Azrael) played 
+a few games against him, and he is really getting better from day to day... 
+<br>
+Crossbreed and Bestrafer are no longer MP's, not because they are not worth 
+it but because of inactivity. Runelord has left the clan too, he was an
+inactive member but he has left because of our "intolerance" to some game 
+called "Starsiege Tribes". Another possibility would be doing an extra site
+for ST players, as two of us play ST well...
+So the clan has only active members for the FIRST TIME!
+<br>
+<br>
+<br>
+</BODY> 
+</HTML> 

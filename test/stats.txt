@@ -1,0 +1,1 @@
+az_won=78&az_lost=60&az_dis=10&Gor_won=43&Gor_lost=45&gor_dis=4&jug_won=8&jug_lost=5&jug_dis=1&mop_won=10&mop_lost=7&mop_dis=2&North_won=13&North_lost=4&North_dis=5&lu_won=7&lu_lost=11&lu_dis=2

@@ -1,0 +1,1 @@
+twon=10&tlost=24&tdisc=2

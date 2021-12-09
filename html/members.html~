@@ -1,0 +1,521 @@
+<HTML>
+<body text="#FFFFFF" bgcolor="#000000" link="#0000EF" vlink="#33CC00" alink="#FF0000">
+<CENTER>
+<bR>
+<form action="http://192.168.0.1/ranking.php3" method=post>
+<p>
+<h1>
+Azrael
+</h1>
+<img src="../gfx/morgoth.jpg"><p>
+<table>
+<tr>
+<th>
+Age
+</th>
+<td>
+20
+</td>
+</tr>
+<tr>
+<th>
+Favorite Race
+</th>
+<td>
+Protoss
+</td>
+</tr>
+</table>
+<p>
+Current Battle.net standings<br>
+<table>
+<tr>
+<th>
+Victories
+</th>
+<td>
+50<input type=hidden name="azrael_won" value="50">
+</td>
+</tr>
+<tr>
+<th>
+Losses
+</th>
+<td>
+39<input type=hidden name="azrael_loss" value="39">
+</td>
+</tr>
+<tr>
+<th>
+Disconnects
+</th>
+<td>
+7<input type=hidden name="azrael_dis" value="7">
+</td>
+</tr>
+</table>
+<IMG SRC="http://www.starbot.org/cgi-bin/nph-starcgi.cgi?ACTION=USER&ARG1=[MP]Azrael">
+<br>
++++ +++<br>
+
+<p>
+<h1>
+Bestrafer
+</h1>
+<img src="../gfx/bestraf.jpg"><p>
+<table>
+<tr>
+<th>
+Age
+</th>
+<td>
+20
+</td>
+</tr>
+<tr>
+<th>
+Favorite Race
+</th>
+<td>
+Terran
+</td>
+</tr>
+</table>
+<p>
+Current Battle.net standings<br>
+<table>
+<tr>
+<th>
+Victories
+</th>
+<td>
+0<input type=hidden name="bestrafer_won" value="0">
+</td>
+</tr>
+<tr>
+<th>
+Losses
+</th>
+<td>
+0<input type=hidden name="bestrafer_loss" value="0">
+</td>
+</tr>
+<tr>
+<th>
+Disconnects
+</th>
+<td>
+0<input type=hidden name="bestrafer_dis" value="0">
+</td>
+</tr>
+</table>
+<IMG
+SRC="http://www.starbot.org/cgi-bin/nph-starcgi.cgi?ACTION=USER&ARG1=[MP]Bestrafer">
+<br>
++++ +++<br>
+<p>
+<h1>
+Crossbreed aka Azrael
+</h1>
+<img src="../gfx/crossb.jpg"><p>
+<table>
+<tr>
+<th>
+Age
+</th>
+<td>
+20
+</td>
+</tr>
+<tr>
+<th>
+Favorite Race
+</th>
+<td>
+Terran
+</td>
+</tr>
+</table>
+<p>
+Current Battle.net standings<br>
+<table>
+<tr>
+<th>
+Victories
+</th>
+<td>
+0<input type=hidden name="crossbreed_won" value="0">
+</td>
+</tr>
+<tr>
+<th>
+Losses
+</th>
+<td>
+0<input type=hidden name="crossbreed_loss" value="0">
+</td>
+</tr>
+<tr>
+<th>
+Disconnects
+</th>
+<td>
+0<input type=hidden name="crossbreed_dis" value="0">
+</td>
+</tr>
+</table>
+<IMG
+SRC="http://www.starbot.org/cgi-bin/nph-starcgi.cgi?ACTION=USER&ARG1=[MP]Crossbreed">
+
+<br>
++++ +++<br>
+
+<p>
+<h1>
+Gorlord
+</h1>
+<img src="../gfx/gorlord.jpg"><p>
+<table>
+<tr>
+<th>
+Age
+</th>
+<td>
+21
+</td>
+</tr>
+<tr>
+<th>
+Favorite Race
+</th>
+<td>
+Zerg
+</td>
+</tr>
+</table>
+<p>
+Current Battle.net standings<br>
+<table>
+<tr>
+<th>
+Victories
+</th>
+<td>
+0<input type=hidden name="gorlord_won" value="0">
+</td>
+</tr>
+<tr>
+<th>
+Losses
+</th>
+<td>
+0<input type=hidden name="gorlord_loss" value="0">
+</td>
+</tr>
+<tr>
+<th>
+Disconnects
+</th>
+<td>
+0<input type=hidden name="gorlord_dis" value="0">
+</td>
+</tr>
+</table>
+<IMG
+SRC="http://www.starbot.org/cgi-bin/nph-starcgi.cgi?ACTION=USER&ARG1=[MP]Gorlord">
+<br>
++++ +++<br>
+
+<p>
+<h1>
+Juggernaut
+</h1>
+<img src="../gfx/benalish.jpg"><p>
+<table>
+<tr>
+<th>
+Age
+</th>
+<td>
+21
+</td>
+</tr>
+<tr>
+<th>
+Favorite Race
+</th>
+<td>
+Protoss
+</td>
+</tr>
+</table>
+<p>
+Current Battle.net standings<br>
+<table>
+<tr>
+<th>
+Victories
+</th>
+<td>
+8<input type=hidden name="juggernaut_won" value="8">
+</td>
+</tr>
+<tr>
+<th>
+Losses
+</th>
+<td>
+5<input type=hidden name="juggernaut_loss" value="5">
+</td>
+</tr>
+<tr>
+<th>
+Disconnects
+</th>
+<td>
+1<input type=hidden name="juggernaut_dis" value="1">
+</td>
+</tr>
+</table>
+<IMG
+SRC="http://www.starbot.org/cgi-bin/nph-starcgi.cgi?ACTION=USER&ARG1=[MP]Juggernaut">
+
+<br>
++++ +++<br>
+
+<p>
+<h1>
+
+</h1>
+<img src="../gfx/mop.jpg"><p>
+<table>
+<tr>
+<th>
+Age
+</th>
+<td>
+19
+</td>
+</tr>
+<tr>
+<th>
+Favorite Race
+</th>
+<td>
+Protoss
+</td>
+</tr>
+</table>
+<p>
+Current Battle.net standings<br>
+<table>
+<tr>
+<th>
+Victories
+</th>
+<td>
+4<input type=hidden name="mop_won" value="4">
+</td>
+</tr>
+<tr>
+<th>
+Losses
+</th>
+<td>
+3<input type=hidden name="mop_loss" value="3">
+</td>
+</tr>
+<tr>
+<th>
+Disconnects
+</th>
+<td>
+0<input type=hidden name="mop_dis" value="0">
+</td>
+</tr>
+</table>
+<IMG
+SRC="http://www.starbot.org/cgi-bin/nph-starcgi.cgi?ACTION=USER&ARG1=[MP]MOP">
+
+<br>
++++ +++<br>
+
+<p>
+<h1>
+North
+</h1>
+<img src="../gfx/north.gif"><p>
+<table>
+<tr>
+<th>
+Age
+</th>
+<td>
+20
+</td>
+</tr>
+<tr>
+<th>
+Favorite Race
+</th>
+<td>
+Zerg
+</td>
+</tr>
+</table>
+<p>
+Current Battle.net standings<br>
+<table>
+<tr>
+<th>
+Victories
+</th>
+<td>
+13<input type=hidden name="north_won" value="13">
+</td>
+</tr>
+<tr>
+<th>
+Losses
+</th>
+<td>
+4<input type=hidden name="north_loss" value="4">
+</td>
+</tr>
+<tr>
+<th>
+Disconnects
+</th>
+<td>
+5<input type=hidden name="north_dis" value="5">
+</td>
+</tr>
+</table>
+<IMG
+SRC="http://www.starbot.org/cgi-bin/nph-starcgi.cgi?ACTION=USER&ARG1=[MP]North">
+
+<br>
++++ +++<br>
+
+<p>
+<h1>
+
+</h1>
+<img src="../gfx/pw.jpg"><p>
+<table>
+<tr>
+<th>
+Age
+</th>
+<td>
+24
+</td>
+</tr>
+<tr>
+<th>
+Favorite Race
+</th>
+<td>
+Terran
+</td>
+</tr>
+</table>
+<p>
+Current Battle.net standings<br>
+<table>
+<tr>
+<th>
+Victories
+</th>
+<td>
+1<input type=hidden name="pw_won" value="1">
+</td>
+</tr>
+<tr>
+<th>
+Losses
+</th>
+<td>
+2<input type=hidden name="pw_loss" value="2">
+</td>
+</tr>
+<tr>
+<th>
+Disconnects
+</th>
+<td>
+0<input type=hidden name="pw_dis" value="0">
+</td>
+</tr>
+</table>
+<IMG
+SRC="http://www.starbot.org/cgi-bin/nph-starcgi.cgi?ACTION=USER&ARG1=[MP]PW">
+
+<br>
++++ +++<br>
+
+<p>
+<h1>
+Runelord
+</h1>
+<img src="../gfx/runelord.jpg"><p>
+<table>
+<tr>
+<th>
+Age
+</th>
+<td>
+20
+</td>
+</tr>
+<tr>
+<th>
+Favorite Race
+</th>
+<td>
+Terran
+</td>
+</tr>
+</table>
+<p>
+Current Battle.net standings<br>
+<table>
+<tr>
+<th>
+Victories
+</th>
+<td>
+0<input type=hidden name="runelord_won" value="0">
+</td>
+</tr>
+<tr>
+<th>
+Losses
+</th>
+<td>
+0<input type=hidden name="runelord_loss" value="0">
+</td>
+</tr>
+<tr>
+<th>
+Disconnects
+</th>
+<td>
+0<input type=hidden name="runelord_dis" value="0">
+</td>
+</tr>
+</table>
+<IMG
+SRC="http://www.starbot.org/cgi-bin/nph-starcgi.cgi?ACTION=USER&ARG1=[MP]Runelord">
+
+<br>
++++ +++<br>
+<br>
+<br>
+<input type="submit" value="Clan Ranking">
+</FORM>
+Last Update 11.01.2000 (Selten son bescheuertes Datum gesehn)
+
+</CENTER>
+</BODY>
+<HTML>

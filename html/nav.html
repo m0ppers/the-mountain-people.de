@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>www.the-mountain-people.de</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v3.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    if ((nbArr = document[grpName]) != null)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = args[i+1];
+      nbArr[nbArr.length] = img;
+  } }
+}
+
+function MM_displayStatusMsg(msgStr) { //v1.0
+  status=msgStr;
+  document.MM_returnValue = true;
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#000000" onLoad="MM_preloadImages('../gfx/menu_r01_c1_f3.gif','../gfx/menu_r01_c1_f2.gif','../gfx/menu_r01_c1_f4.gif','../gfx/menu_r03_c2_f3.gif','../gfx/menu_r03_c2_f2.gif','../gfx/menu_r03_c2_f4.gif','../gfx/menu_r05_c3_f3.gif','../gfx/menu_r05_c3_f2.gif','../gfx/menu_r05_c3_f4.gif','../gfx/menu_r07_c4_f3.gif','../gfx/menu_r07_c4_f2.gif','../gfx/menu_r07_c4_f4.gif','../gfx/menu_r09_c4_f3.gif','../gfx/menu_r09_c4_f2.gif','../gfx/menu_r09_c4_f4.gif','../gfx/menu_r11_c3_f3.gif','../gfx/menu_r11_c3_f2.gif','../gfx/menu_r11_c3_f4.gif','../gfx/menu_r13_c2_f3.gif','../gfx/menu_r13_c2_f2.gif','../gfx/menu_r13_c2_f4.gif')">
+<table border="0" cellpadding="0" cellspacing="0" width="230">
+  <!-- fwtable fwsrc="menu.png" fwbase="menu.gif" --> 
+  <tr> <!-- Shim row, height 1. --> 
+    <td><img src="../gfx/shim.gif" width="21" height="1" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="24" height="1" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="24" height="1" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="101" height="1" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="24" height="1" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="24" height="1" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="12" height="1" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="1" height="1" border="0"></td>
+  </tr>
+  <tr valign="top"><!-- row 1 --> 
+    <td colspan="7"><a href="main.html" onMouseOut="MM_nbGroup('out');MM_displayStatusMsg('');return document.MM_returnValue"  onMouseOver="MM_nbGroup('over','menu_r01_c1','../gfx/menu_r01_c1_f2.gif','../gfx/menu_r01_c1_f4.gif',1);MM_displayStatusMsg('Main Page');return document.MM_returnValue"  onClick="MM_nbGroup('down','navbar1','menu_r01_c1','../gfx/menu_r01_c1_f3.gif',1)" target="viewing" ><img name="menu_r01_c1" src="../gfx/menu_r01_c1.gif" onLoad="" border="0"></a></td>
+    <td><img src="../gfx/shim.gif" width="1" height="157" border="0"></td>
+  </tr>
+  <tr valign="top"><!-- row 2 --> 
+    <td colspan="7"><img name="menu_r02_c1" src="../gfx/menu_r02_c1.gif" width="230" height="49" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="1" height="49" border="0"></td>
+  </tr>
+  <tr valign="top"><!-- row 3 --> 
+    <td rowspan="12"><img name="menu_r03_c1" src="../gfx/menu_r03_c1.gif" width="21" height="444" border="0"></td>
+    <td colspan="3"><a href="members.html" onMouseOut="MM_nbGroup('out');MM_displayStatusMsg('');return document.MM_returnValue"  onMouseOver="MM_nbGroup('over','menu_r03_c2','../gfx/menu_r03_c2_f2.gif','../gfx/menu_r03_c2_f4.gif',1);MM_displayStatusMsg('members');return document.MM_returnValue"  onClick="MM_nbGroup('down','navbar1','menu_r03_c2','../gfx/menu_r03_c2_f3.gif',1)" target="viewing" ><img name="menu_r03_c2" src="../gfx/menu_r03_c2.gif" onLoad="" border="0"></a></td>
+    <td rowspan="2" colspan="3"><img name="menu_r03_c5" src="../gfx/menu_r03_c5.gif" width="60" height="69" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="1" height="40" border="0"></td>
+  </tr>
+  <tr valign="top"><!-- row 4 --> 
+    <td colspan="3"><img name="menu_r04_c2" src="../gfx/menu_r04_c2.gif" width="149" height="29" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="1" height="29" border="0"></td>
+  </tr>
+  <tr valign="top"><!-- row 5 --> 
+    <td rowspan="8"><img name="menu_r05_c2" src="../gfx/menu_r05_c2.gif" width="24" height="281" border="0"></td>
+    <td colspan="3"><a href="scene.html" onMouseOut="MM_nbGroup('out');MM_displayStatusMsg('');return document.MM_returnValue"  onMouseOver="MM_nbGroup('over','menu_r05_c3','../gfx/menu_r05_c3_f2.gif','../gfx/menu_r05_c3_f4.gif',1);MM_displayStatusMsg('scene');return document.MM_returnValue"  onClick="MM_nbGroup('down','navbar1','menu_r05_c3','../gfx/menu_r05_c3_f3.gif',1)" target="viewing" ><img name="menu_r05_c3" src="../gfx/menu_r05_c3.gif" onLoad="" border="0" width="149" height="41"></a></td>
+    <td rowspan="2" colspan="2"><img name="menu_r05_c6" src="../gfx/menu_r05_c6.gif" width="36" height="70" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="1" height="41" border="0"></td>
+  </tr>
+  <tr valign="top"><!-- row 6 --> 
+    <td colspan="3"><img name="menu_r06_c3" src="../gfx/menu_r06_c3.gif" width="149" height="29" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="1" height="29" border="0"></td>
+  </tr>
+  <tr valign="top"><!-- row 7 --> 
+    <td rowspan="4"><img name="menu_r07_c3" src="../gfx/menu_r07_c3.gif" width="24" height="140" border="0"></td>
+    <td colspan="3"><a href="clan.html" onMouseOut="MM_nbGroup('out');MM_displayStatusMsg('');return document.MM_returnValue"  onMouseOver="MM_nbGroup('over','menu_r07_c4','../gfx/menu_r07_c4_f2.gif','../gfx/menu_r07_c4_f4.gif',1);MM_displayStatusMsg('clan');return document.MM_returnValue"  onClick="MM_nbGroup('down','navbar1','menu_r07_c4','../gfx/menu_r07_c4_f3.gif',1)" target="viewing" ><img name="menu_r07_c4" src="../gfx/menu_r07_c4.gif" onLoad="" border="0"></a></td>
+    <td rowspan="8"><img name="menu_r07_c7" src="../gfx/menu_r07_c7.gif" width="12" height="305" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="1" height="41" border="0"></td>
+  </tr>
+  <tr valign="top"><!-- row 8 --> 
+    <td colspan="3"><img name="menu_r08_c4" src="../gfx/menu_r08_c4.gif" width="149" height="29" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="1" height="29" border="0"></td>
+  </tr>
+  <tr valign="top"><!-- row 9 --> 
+    <td colspan="3"><a href="clanw.html" onMouseOut="MM_nbGroup('out');MM_displayStatusMsg('');return document.MM_returnValue"  onMouseOver="MM_nbGroup('over','menu_r09_c4','../gfx/menu_r09_c4_f2.gif','../gfx/menu_r09_c4_f4.gif',1);MM_displayStatusMsg('clanwar');return document.MM_returnValue"  onClick="MM_nbGroup('down','navbar1','menu_r09_c4','../gfx/menu_r09_c4_f3.gif',1)" target="viewing" ><img name="menu_r09_c4" src="../gfx/menu_r09_c4.gif" onLoad="" border="0"></a></td>
+    <td><img src="../gfx/shim.gif" width="1" height="41" border="0"></td>
+  </tr>
+  <tr valign="top"><!-- row 10 --> 
+    <td colspan="3"><img name="menu_r10_c4" src="../gfx/menu_r10_c4.gif" width="149" height="29" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="1" height="29" border="0"></td>
+  </tr>
+  <tr valign="top"><!-- row 11 --> 
+    <td colspan="3"><a href="contact.html" onMouseOut="MM_nbGroup('out');MM_displayStatusMsg('');return document.MM_returnValue"  onMouseOver="MM_nbGroup('over','menu_r11_c3','../gfx/menu_r11_c3_f2.gif','../gfx/menu_r11_c3_f4.gif',1);MM_displayStatusMsg('contact');return document.MM_returnValue"  onClick="MM_nbGroup('down','navbar1','menu_r11_c3','../gfx/menu_r11_c3_f3.gif',1)" target="viewing" ><img name="menu_r11_c3" src="../gfx/menu_r11_c3.gif" onLoad="" border="0"></a></td>
+    <td rowspan="4"><img name="menu_r11_c6" src="../gfx/menu_r11_c6.gif" width="24" height="165" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="1" height="41" border="0"></td>
+  </tr>
+  <tr valign="top"><!-- row 12 --> 
+    <td colspan="3"><img name="menu_r12_c3" src="../gfx/menu_r12_c3.gif" width="149" height="30" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="1" height="30" border="0"></td>
+  </tr>
+  <tr valign="top"><!-- row 13 --> 
+    <td colspan="3"><a href="links.html" onMouseOut="MM_nbGroup('out');MM_displayStatusMsg('');return document.MM_returnValue"  onMouseOver="MM_nbGroup('over','menu_r13_c2','../gfx/menu_r13_c2_f2.gif','../gfx/menu_r13_c2_f4.gif',1);MM_displayStatusMsg('links');return document.MM_returnValue"  onClick="MM_nbGroup('down','navbar1','menu_r13_c2','../gfx/menu_r13_c2_f3.gif',1)" target="viewing" ><img name="menu_r13_c2" src="../gfx/menu_r13_c2.gif" onLoad="" border="0"></a></td>
+    <td rowspan="2"><img name="menu_r13_c5" src="../gfx/menu_r13_c5.gif" width="24" height="94" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="1" height="40" border="0"></td>
+  </tr>
+  <tr valign="top"><!-- row 14 --> 
+    <td colspan="3"><img name="menu_r14_c2" src="../gfx/menu_r14_c2.gif" width="149" height="54" border="0"></td>
+    <td><img src="../gfx/shim.gif" width="1" height="54" border="0"></td>
+  </tr>
+</table>
+</body>
+</html>
